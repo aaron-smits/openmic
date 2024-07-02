@@ -5,7 +5,8 @@
     "#e9b872",
     "#d66853",
     "#6b9ac4",
-    "#000000"
+    "#000000",
+    "ffffff"
   ];
 
   function shuffleArray(array) {
@@ -47,7 +48,7 @@
       <g transform="translate(0, {rowIndex * 50})">
         {#each [25, 75, 125, 175, 225, 275] as cx, index}
           <circle {cx} cy="25" r="20">
-            <animate attributeName="fill" values={sequence} dur="2s" repeatCount="indefinite" begin={`${index * 0.5}s`}/>
+            <animate attributeName="fill" values={sequence} dur="2s" repeatCount="indefinite" begin={`${index * 1}s`}/>
           </circle>
         {/each}
       </g>
