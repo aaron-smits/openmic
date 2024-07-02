@@ -30,7 +30,7 @@
 </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
-  <rect width="100%" height="100%"/>
+  <rect width="100%" height="100%" fill="#f5e9d7"/>
   
   {#each colorSequences as sequence, rowIndex}
     <g transform="translate(0, {rowIndex * 50})">
