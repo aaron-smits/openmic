@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(45deg, #f5e9d7, #ffffff);
+    background-size: 1000% 1000%;
+    animation: gradientAnimation 3s ease infinite;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+    font-family:
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    max-height: 80vh;
+    border: none;
+    border-radius: 20px;
+}
+
+nav {
+    margin-top: 1em;
+    padding: 0.7em;
+    flex-direction: column;
+    line-height: 130%;
+    font-weight: 700;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 4px;
+    text-align: center;
+}
+
+a {
+    padding: 0.2em;
+    margin: 0.2em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+div {
+    margin: 0 auto;
+}
+
+.content {
+    width: 85%;
+    max-width: 700px;
+    word-break: break-word;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+    position: relative;
+    bottom: 0;
+    padding-top: 2em;
+    width: 100%;
+}
