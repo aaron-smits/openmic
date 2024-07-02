@@ -109,5 +109,6 @@
     border-width: 1px;
     border-color: black;
     letter-spacing: 4px;
+    color: black;
   }
 </style>
